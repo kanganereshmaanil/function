@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:purple ;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        pre{
+            font-size: 20px;
+
+        }
+        h4{
+            font-size: 20px;
+        }
+        h4{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<h1>JS HANDSON-10</h1>
+<h4>1.create one function with zero parameter having a console statement</h4>
+<pre>function foo(){
+    console.log('Hello');
+}
+</pre>
+<h4>2.create one function which takes two value as a parameter and print the sum of them as "sum of 3,4 is 7"</h4>
+<pre>function sum (a,b){
+    console.log(a+b);
+}
+</pre>
+<h4>3.createone arrow function</h4>
+<pre>  arrowFunction(() => {
+
+})</pre>
+
+<h4>4.print the output</h4>
+<pre>var x = 21;
+    var girl = function(){
+        console.log(x);
+        var x = 20;
+    };
+girl();
+
+ <b>  output= undefined </b>
+</pre>
+
+<h4>5.print the output</h4>
+<pre>var x = 21;
+    girl();
+    console.log(x);
+      function girl(){
+        console.log(x);
+        var x = 20;
+      };
+      <b>output =undefined
+                  21
+      </b>
+    </pre>
+   <h4>6.Print output </h4>
+    <pre>
+    var x = 21; 
+    a(); b(); 
+    function a() { 
+        x = 20; 
+        console.log(x);
+     }; 
+     function b()
+      { 
+        x = 40; 
+        console.log(x);
+     };
+     <b>output = 20
+                40
+     </b>
+    </pre>
+    <h4>7.Write a function that accepts parameter n and returns factorial of n</h4>
+    <pre>function factorial (n){
+        var a=1
+        for(i=n; i>=1; i--){
+            a=a*i;
+        }
+        console.log(a);
+        
+        }
+        
+        factorial(5)
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
